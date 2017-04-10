@@ -20,7 +20,7 @@ const data = [
     value: 5
   },
   {
-    name: 'test6',
+    name: 'test7',
     value: 6
   },
 
