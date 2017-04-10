@@ -1,5 +1,4 @@
 var someData = {};
-console.log($);
 
 function generateData(text) {
   var dataLength = data.length;
