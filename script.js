@@ -19,10 +19,11 @@ btn.addEventListener('click', () => {
   if (+input.value === someData.value) {
     result.innerHTML = "YES! It's correct"
     result.style.color = 'green';
+    input.value = '';
     generateData(text);
   } else {
     result.innerHTML = "NO! It's wrong. Try one more time";
     result.style.color = 'red';
   }
-  input.value = '';
+  input.focus();
 })
