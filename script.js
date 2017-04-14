@@ -31,5 +31,6 @@ btn.addEventListener('click', () => {
 
 btnAnswer.addEventListener('click', () => {
   result.innerHTML = someData.name;
+  input.value = someData.name;
   result.style.color = 'blue';
 })
